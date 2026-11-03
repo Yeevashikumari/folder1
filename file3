@@ -1,0 +1,26 @@
+hello, worl1. heck who you are logged in as:bash
+whoami
+Use code with caution.
+(It will output yeevashi if that is your account). [🛡️ Permissions & Users]
+2. See all user account details:bash
+id yeevashi
+Use code with caution.
+(This will show you the User ID number and what groups yeevashi belongs to).
+To help you with your next steps, let me know:
+• Are you trying to add yeevashi to the designer group we talked about earlier?
+• Do you need to switch users or log out of this account?
+
+ssd
+
+An SSD (Solid State Drive) is a modern storage device used in computers and servers to save data permanently. Unlike older mechanical Hard Disk Drives (HDDs) that use spinning platters and moving needles, SSDs have no moving parts. Instead, they store data on tiny flash memory chips, making them incredibly fast, quiet, and durable.
+In Linux, managing and monitoring your SSD is done through a few specific terminal commands.
+
+🛠️ Useful Linux Commands for SSDs
+
+• lsblk (List Block Devices): Shows all connected drives (including your SSD) and their partitions.
+	• Tip: Your SSD will usually appear under names like /dev/sda or /dev/nvme0n1.
+• df -h (Disk Free): Displays how much storage space is left on your SSD in a human-readable format (GB/MB) [🖥️ System & Resource Monitoring].
+• sudo fstrim -v / (Trim SSD): Tells your SSD which data blocks are no longer needed so it can clear them out. Running this periodically keeps your SSD performing at peak speed.
+• sudo smartctl -a /dev/sda (Smart Monitoring): Checks the health status, temperature, and remaining lifespan of your SSD (requires the smartmontoolsd
+yeevashi
+123
